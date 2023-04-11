@@ -1,0 +1,23 @@
+.table {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+thead, tbody, tr {
+  display: contents;
+}
+
+.table {
+  border-top: 1px solid #888;
+  border-right: 1px solid #888;
+}
+
+th, td {
+  text-align: left;
+  border-left: 1px solid #888;
+  border-bottom: 1px solid #888;
+  padding: 8px;
+}
+.active{
+	background-color: blue;
+}
