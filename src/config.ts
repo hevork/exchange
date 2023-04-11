@@ -1,0 +1,1 @@
+export const CUPCAKE = 1.2

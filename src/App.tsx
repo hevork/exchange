@@ -7,7 +7,7 @@ import {
 	firstMarket,
 	firstMarketPoll
 } from "src/api"
-import useMarket from "src/components/hooks/useMarket"
+import useMarket from "src/components/hooks/use-market"
 import TableMain from "./components/table-main/table-main"
 import "./index.css"
 function App() {
